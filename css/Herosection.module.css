@@ -1,0 +1,36 @@
+.main {
+    height: 100svh;
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .loading {
+    margin: 6px;
+    width: 120px;
+    height: 6px;
+    border: 0.01px solid var(--background-color);
+  }
+  
+  .loader5 {
+    height: 100%;
+    animation: loading-animation;
+    animation-duration: 3s;
+  }
+  
+  @keyframes loading-animation {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+      background: var(--background-color);
+    }
+  }
+  
+
+  
