@@ -48,7 +48,7 @@ const Herosection: Component = () => {
 
   return (
     <main class={styles.main}>
-      <img src={imageSrc} alt="Description of the image" />
+      <img src={imageSrc} alt="Description of the image" width="180px" height="180px" />
       <h3>{loadingProgress()}%</h3>
       <div class={styles.loading}>
         <div

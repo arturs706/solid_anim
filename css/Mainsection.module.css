@@ -5,6 +5,10 @@
     justify-content: center;
     height: 100vh;
     background-color: #911318;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 .main {
