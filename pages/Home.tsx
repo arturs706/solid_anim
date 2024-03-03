@@ -1,7 +1,5 @@
 import { Component, createSignal, createEffect } from "solid-js";
-import Herosection from "../components/mainpage/Herosection";
-import Mainsection from "../components/mainpage/Mainsection";
-import Secondsection from "../components/mainpage/Secondsection";
+import Mainpage from "../components/pages/Mainpage";
 
 const Home: Component = () => {
   const [showMainSection, setShowMainSection] = createSignal(true);
@@ -14,9 +12,7 @@ const Home: Component = () => {
 
   return (
     <>
-      <Herosection />
-      {showMainSection() && <Mainsection />}
-      <Secondsection />
+      <Mainpage />
     </>
   );
 };

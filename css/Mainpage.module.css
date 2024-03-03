@@ -1,0 +1,30 @@
+.main {
+    height: 100svh;
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+  }
+
+.firstsection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--background-color);
+    width: 100%;
+}
+  .reveal {
+    visibility: hidden;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
